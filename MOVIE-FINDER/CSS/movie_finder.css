@@ -1,0 +1,87 @@
+body{
+ margin:0px; 
+ padding:0px;
+ box-sizing: border-box;
+ font-size: 18px;
+ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ background-color: rgb(233,233,233);
+}
+
+.title{
+    font-size: 19px;
+    font-weight: 600;
+    color: white;
+    background-color: rgb(19,19,56);
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+.full-body{
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.form-input{
+    border: none;
+    outline: none;
+    background-color: white;
+    padding: 10px 20px;
+    border: 2px solid grey;
+    margin-right: 20px;
+}
+.form-input:focus{
+    background-color: white;
+}
+.search{
+    background-color: rgb(19,19,56);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 10px 20px;
+}
+.search-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+}
+.movie-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.card{
+    display: flex;
+    justify-content: space-betweens;
+    align-items: center;
+    color: white;
+    background-color: rgb(29,51,59);
+    width: 800px;
+    height: 300px;
+    margin: 20px;
+}
+.card img{
+    height: 250px;
+    width: 300px;
+    margin: 25px;
+}
+
+.movie-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+    margin: 0px 200px;
+}
+.value{
+    font-size: 15px;
+    width: 200px;
+}
+.search:hover{
+background-color: darkblue;
+
+}
